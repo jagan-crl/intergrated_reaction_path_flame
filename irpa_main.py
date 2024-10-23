@@ -1,10 +1,10 @@
-from integral_reaction_path_analysis import irpa_main_function, freeflame_simulation
+from irpa_functions import irpa_main_function, freeflame_simulation
 
 ########################################################################################################################
 # Main script
 # Change necessary parameters below
 model = 'ffcm1.yaml'
-outfile = 'c2h4_air_1atm_ma2021.txt'
+outfile = 'output.txt'      # Change to desired name, saved to same folder where Python scripts are saved
 tracing_element = 'C'
 fuel_name = 'C2H4'
 
